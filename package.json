@@ -1,0 +1,23 @@
+{
+  "name": "211scrapper",
+  "version": "1.0.0",
+  "description": "Scrapper for 211 data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "211",
+    "scrapper"
+  ],
+  "author": "BNIA-JFI",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}
